@@ -1,0 +1,39 @@
+[0.071s] Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /my_new_project/dev_ws/src/my_package/build/my_package -- -j8 -l8
+[0.166s] Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /my_new_project/dev_ws/src/my_package/build/my_package -- -j8 -l8
+[0.219s] Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /my_new_project/dev_ws/src/my_package/build/my_package
+[0.244s] -- Install configuration: ""
+[0.247s] -- Execute custom install script
+[0.253s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/launch/display.launch.py
+[0.256s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/launch/listener.launch.py
+[0.259s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/launch/talker.launch.py
+[0.263s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/urdf/my_materials.xacro
+[0.268s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/urdf/robot_arm.urdf.xacro
+[0.272s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/base.obj
+[0.273s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/base.stl
+[0.275s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/hello.txt
+[0.276s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j1.obj
+[0.278s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j1.stl
+[0.279s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j2.obj
+[0.281s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j2.stl
+[0.282s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j3.obj
+[0.284s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j3.stl
+[0.287s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j4.obj
+[0.290s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j4.stl
+[0.292s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j5.obj
+[0.294s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j5.stl
+[0.296s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.297s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.299s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.302s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/path.sh
+[0.303s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/path.dsv
+[0.304s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.bash
+[0.306s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.sh
+[0.308s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.zsh
+[0.310s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.dsv
+[0.317s] -- Symlinking: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/package.dsv
+[0.336s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.341s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.353s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.361s] -- Up-to-date symlink: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/package.xml
+[0.368s] Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /my_new_project/dev_ws/src/my_package/build/my_package

@@ -1,0 +1,6 @@
+Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_new_project/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_new_project/dev_ws/src/my_package/install/my_package
+Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_new_project/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_new_project/dev_ws/src/my_package/install/my_package
+Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_new_project/dev_ws/src/my_package/build/my_package -- -j8 -l8
+Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_new_project/dev_ws/src/my_package/build/my_package -- -j8 -l8
+Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_new_project/dev_ws/src/my_package/build/my_package
+Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_new_project/dev_ws/src/my_package/build/my_package
