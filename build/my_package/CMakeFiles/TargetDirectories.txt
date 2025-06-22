@@ -1,0 +1,9 @@
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/install/strip.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/install/local.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/install.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/list_install_components.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/rebuild_cache.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/edit_cache.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/test.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/my_package_uninstall.dir
+/my_new_project/dev_ws/src/my_package/build/my_package/CMakeFiles/uninstall.dir

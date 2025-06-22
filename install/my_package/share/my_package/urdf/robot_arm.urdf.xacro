@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+    <xacro:include filename="my_materials.xacro"/>
+
+    <!-- First link is empty world link -->
+    <link name="world"></link>
+
+    <!-- Base Joint-->
+    <joint name="base_joint" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="1.5 1 0" rpy="0 0 0"/>
+    </joint>
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0.05" rpy="0 0 0"/>
+            <geometry>
+                <box size="2.5 1.5 0.1"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="2.5 1.5 0.1"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="12"/>
+            <origin xyz="0 0 0.05" rpy="0 0 0"/>
+            <inertia ixx="2.26" ixy="0.0" ixz="0" iyy="6.25" iyz="0" izz="8.5"/>
+        </inertial>
+    </link>
+
+<!-- Joint 1 -->
+<joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <origin xyz="-0.0125 0 0.135" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="100" velocity="1.5" lower="${-pi/3}" upper="${pi/3}"/>
+</joint>
+
+<link name="link_1">
+  <visual>
+    <origin xyz="0 0 0.135" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find my_package)/meshes/j1.stl" scale="1 1 1"/>
+    </geometry>
+  </visual>
+</link>
+
+<!-- Joint 2 -->
+<joint name="joint_2" type="revolute">
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <origin xyz="0.047 0 0.135" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="100" velocity="1.5" lower="${-pi/2}" upper="${pi/2}"/>
+</joint>
+
+<link name="link_2">
+</link>
+
+<!-- Joint 3 -->
+<joint name="joint_3" type="revolute">
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <origin xyz="0 0 0.110" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="100" velocity="1.5" lower="${-pi/3}" upper="${pi/3}4"/>
+</joint>
+
+<link name="link_3">
+</link>
+
+<!-- Joint 4 -->
+<joint name="joint_4" type="revolute">
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <origin xyz="0 0 0.026" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="100" velocity="1.5" lower="${-(3 * pi)/2}" upper="${(3 * pi)/2}"/>
+</joint>
+
+<link name="link_4">
+</link>
+
+<!-- Joint 5 -->
+<joint name="joint_5" type="revolute">
+    <parent link="link_4"/>
+    <child link="link_5"/>
+    <origin xyz="0.1175 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="100" velocity="1.5" lower="${-pi/3}" upper="${pi/3}4"/>
+</joint>
+
+<link name="link_5">
+</link>
+
+<!-- Joint 6 -->
+<joint name="joint_6" type="continuous">
+    <parent link="link_5"/>
+    <child link="link_6"/>
+    <origin xyz="0.0268 0 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+</joint>
+
+<link name="link_6">
+</link>
+
+</robot>

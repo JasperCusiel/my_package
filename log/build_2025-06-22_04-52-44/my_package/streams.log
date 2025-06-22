@@ -1,0 +1,72 @@
+[0.053s] Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_new_project/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/my_new_project/dev_ws/src/my_package/install/my_package
+[0.174s] -- The C compiler identification is GNU 9.4.0
+[0.270s] -- The CXX compiler identification is GNU 9.4.0
+[0.280s] -- Check for working C compiler: /usr/bin/cc
+[0.444s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.448s] -- Detecting C compiler ABI info
+[0.664s] -- Detecting C compiler ABI info - done
+[0.681s] -- Detecting C compile features
+[0.683s] -- Detecting C compile features - done
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++
+[0.898s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.899s] -- Detecting CXX compiler ABI info
+[1.076s] -- Detecting CXX compiler ABI info - done
+[1.092s] -- Detecting CXX compile features
+[1.092s] -- Detecting CXX compile features - done
+[1.099s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.137s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.384s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.515s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.640s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.641s] -- Configured cppcheck include dirs: 
+[1.642s] -- Configured cppcheck exclude dirs and/or files: 
+[1.751s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.752s] -- Configured cpplint exclude dirs and/or files: 
+[1.768s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.788s] -- Added test 'lint_cmake' to check CMake code style
+[1.800s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.899s] -- Added test 'uncrustify' to check C / C++ code style
+[1.900s] -- Configured uncrustify additional arguments: 
+[1.912s] -- Added test 'xmllint' to check XML markup files
+[1.925s] -- Configuring done
+[1.990s] -- Generating done
+[2.001s] -- Build files have been written to: /my_new_project/dev_ws/src/my_package/build/my_package
+[2.003s] Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_new_project/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/my_new_project/dev_ws/src/my_package/install/my_package
+[2.007s] Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_new_project/dev_ws/src/my_package/build/my_package -- -j8 -l8
+[2.089s] Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_new_project/dev_ws/src/my_package/build/my_package -- -j8 -l8
+[2.143s] Invoking command in '/my_new_project/dev_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_new_project/dev_ws/src/my_package/build/my_package
+[2.164s] -- Install configuration: ""
+[2.165s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/launch
+[2.169s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/launch/listener.launch.py
+[2.175s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/launch/display.launch.py
+[2.178s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/launch/talker.launch.py
+[2.181s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/urdf
+[2.183s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/urdf/robot_arm.urdf.xacro
+[2.186s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/urdf/my_materials.xacro
+[2.192s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes
+[2.194s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j6.obj
+[2.198s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j1.stl
+[2.231s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j1.obj
+[2.272s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j5.obj
+[2.303s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j4.obj
+[2.320s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/meca.obj
+[2.538s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j2.obj
+[2.586s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/base.obj
+[2.634s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/meshes/j3.obj
+[2.666s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.672s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.676s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.679s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.682s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/path.sh
+[2.685s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/environment/path.dsv
+[2.687s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.bash
+[2.690s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.sh
+[2.693s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.zsh
+[2.695s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/local_setup.dsv
+[2.696s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/package.dsv
+[2.699s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.703s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.704s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.707s] -- Installing: /my_new_project/dev_ws/src/my_package/install/my_package/share/my_package/package.xml
+[2.718s] Invoked command in '/my_new_project/dev_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_new_project/dev_ws/src/my_package/build/my_package
